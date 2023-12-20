@@ -50,4 +50,11 @@ for platform storage of the private key. Implement HashAndCompareHash function t
 ### Network and Token Support
 1. Multi-network support would be wild, but just a repetition of this process above.
 Get a client, get a node, interface with it.
-2. 
+2. Token management can work same way as Metamask. 
+Ask for token details and the network it belongs to.
+Fetch it from the network, and it should work. 
+Creating User addresses would probably depend on the network.
+
+### Extensions and Integration
+1. Wallets can be integrated into other dApps, exchanges, etc.
+Would be solved easily if the wallet is a dApp or a local application.
